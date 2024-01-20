@@ -1,0 +1,7 @@
+.navigation {
+    display: flex;
+    width: 1180px;
+    height: 35px;
+    margin: 0 130px 0;
+    border-top: 1px solid #888;
+}

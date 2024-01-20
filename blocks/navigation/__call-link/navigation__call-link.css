@@ -1,0 +1,9 @@
+.navigation__call-link {
+    width: 158px;
+    text-decoration: none;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 19px;
+    color: #607CE6;
+    margin-top: 13px;
+}

@@ -1,0 +1,7 @@
+.footer__navigation {
+    width: 1130px;
+    height: 247px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 56px 155px 0 0;
+}

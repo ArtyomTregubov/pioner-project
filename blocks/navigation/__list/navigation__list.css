@@ -1,0 +1,8 @@
+.navigation__list {
+    display: flex;
+    width: 1180px;
+    height: 35px;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,9 @@
+.factory__title {
+    margin: 0;
+    width: 580px;
+    height: 144px;
+    font-size: 60px; 
+    font-weight: 700;
+    line-height: 72px;
+    color: #333;
+}

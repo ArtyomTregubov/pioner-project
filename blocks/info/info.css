@@ -1,0 +1,7 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    height: 602px;
+    margin: 0px 130px 80px;
+}

@@ -1,0 +1,5 @@
+.info__box {
+    height: 512px;
+    display: flex;
+    flex-direction: row;
+}

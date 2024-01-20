@@ -1,0 +1,7 @@
+.products__card {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 435px;
+    background-color: #F5F5F5;
+}

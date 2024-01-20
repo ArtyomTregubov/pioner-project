@@ -1,0 +1,7 @@
+.products__image-box {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 194px;
+    padding: 32px 0 107px 24px;
+}
