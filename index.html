@@ -101,55 +101,19 @@
 
                 <section class="products">
                     <h2 class="products__title">Продукция</h2>
+
                     <div class="products__cards">
-                        <article class="products__card">
-                            <div class="products__image-box">
-                                <img src="./images/signaling.png" alt="Картинка сигнализатора уровня" class="products__card-image" />
-                            </div>
-                            <h3 class="products__card-title">Сигнализатор уровня</h3>
-                            <a class="products__card-link" href="#">Подробнее &#155;</a>
-                        </article>
 
-                        <article class="products__card">
-                            <div class="products__image-box">
-                                <img src="./images/sensors.png" alt="Картинка датчика давления" class="products__card-image" />
-                            </div>
-                            <h3 class="products__card-title">Датчики давления</h3>
-                            <a class="products__card-link" href="#">Подробнее &#155;</a>
-                        </article>
+                        <template id="products__card">
+                            <article class="products__card">
+                             <div class="products__image-box">
+                                    <img src="./images/signaling.png" alt="Картинка сигнализатора уровня" class="products__card-image" />
+                             </div>
+                                <h3 class="products__card-title">Сигнализатор уровня</h3>
+                                <a class="products__card-link" href="#">Подробнее &#155;</a>
+                            </article>
+                        </template>
 
-                        <article class="products__card">
-                            <div class="products__image-box">
-                                <img src="./images/pid.png" alt="Картинка ПИД-регулятора" class="products__card-image" />
-                            </div>
-                            <h3 class="products__card-title">Пид-регуляторы</h3>
-                            <a class="products__card-link" href="#">Подробнее &#155;</a>
-                        </article>
-
-                        <article class="products__card">
-                            <div class="products__image-box">
-                                <img src="./images/calibrator.png" alt="Картинка калибратора давления" class="products__card-image" />
-                            </div>
-                            <h3 class="products__card-title">Калибратор давления</h3>
-                            <a class="products__card-link" href="#">Подробнее &#155;</a>
-                        </article>
-
-                        <article class="products__card">
-                            <div class="products__image-box">
-                                <img src="./images/corrector.png" alt="Картинка корректора расхода газа" class="products__card-image" />
-                            </div>
-                            <h3 class="products__card-title">Корректор расхода газа</h3>
-                            <a class="products__card-link" href="#">Подробнее &#155;</a>
-                        </article>
-
-                        <article class="products__card">
-                            <div class="products__image-box">
-                                <img src="./images/manometr.png" alt="Картинка манометра" class="products__card-image" />
-                            </div>
-                            <h3 class="products__card-title">Манометры</h3>
-                            <a class="products__card-link" href="#">Подробнее &#155;</a>
-                        </article>
-                    </div>
                 </section>
 
                 <section class="representative">
@@ -247,5 +211,9 @@
                 <span class="footer__date">1994 — 2020 ООО «ПИОНЕР»</span>
             </footer>
         </div>
+
+        <script src="./scripts/Card.js"></script>
+        <script src="./scripts/scripts.js"></script>
+    
     </body>
 </html>
