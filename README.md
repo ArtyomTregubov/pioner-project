@@ -6,6 +6,7 @@
 HTML
 CSS
 БЭМ
+JavaScript
 
 Ссылка на проект: https://artyomtregubov.github.io/pioner-project/
 
